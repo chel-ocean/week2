@@ -1,4 +1,5 @@
 import Heading from "./heading";
+import Link from "next/link";
 
 export default function Page(){
     
@@ -12,6 +13,7 @@ export default function Page(){
             <Heading />
             <p>This is a demo for week 2.</p>
             <p>The sum of a + b is {a+b}</p>
+            <Link class="text-red-500" href="/">Return</Link>
         </main>
     )
 }
